@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.comment('Application will be tested')
+
+//def appPath=PathUtil.relativeToAbsolutePath(GlobalVariable.G, RunConfiguration.getProjectDir())
+
 Mobile.startExistingApplication('com.google.android.gm')
 
 Mobile.tap(findTestObject('Object Repository/New Folder/android.widget.Button - Scrivi'), 0)
@@ -30,6 +34,8 @@ Mobile.setText(findTestObject('Object Repository/New Folder/android.widget.EditT
 
 Mobile.setText(findTestObject('Object Repository/New Folder/android.widget.EditText - Scrivi email'), '5th try on gmail', 
     0)
+
+Mobile.comment('The email has been sent successfully')
 
 Mobile.tap(findTestObject('Object Repository/New Folder/android.widget.TextView'), 0)
 
