@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SAMRAA~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\mo\\20220518_143419\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SAMRAA~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Amazon\\20220518_163107\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/mo', new TestCaseBinding('Test Cases/mo',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Amazon', new TestCaseBinding('Test Cases/Amazon',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
